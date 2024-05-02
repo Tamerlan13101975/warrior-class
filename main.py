@@ -18,7 +18,7 @@ class Warrior():
 
     def hit(self):
         print(f"{self.name}He strikes")
-        self.hit -= 5
+        self.endurance -= 5
 
 
     def walk(self):
@@ -46,9 +46,34 @@ print(War2.endurance)
 print(War2.hair_color)
 
 
+print(War1.endurance)
+print(War1.power)
+War1.sleep()
+War1.eat()
+War1.hit()
+print(War1.endurance)
+print(War1.power)
+
+print(War2.endurance)
+print(War2.power)
+War2.walk()
+War2.sleep()
+War2.sleep()
+print(War2.endurance)
+print(War2.power)
 
 
+War1.sleep()
+War1.eat()
+War1.hit()
+War1.walk()
+War1.info()
 
+War2.sleep()
+War2.eat()
+War2.hit()
+War2.walk()
+War2.info()
 
 
 
