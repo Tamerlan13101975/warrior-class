@@ -7,31 +7,31 @@ class Warrior():
         self.info = info
 
     def sleep(self):
-        print(f"{self.name}"Лег спать")
+        print(f"{self.name}"He feel a sleep")
         self.endurance += 2
 
 
     def eat(self):
-        print(f"{self.name}"Сел кушать")
+        print(f"{self.name}"He sat down to eat")
         self.power += 1
 
 
     def hit(self):
-        print(f"{self.name}"Наносит удар")
+        print(f"{self.name}"Ye strikes")
         self.hit -= 5
 
 
     def walk(self):
-        print(f"{self.name}"Идет куда-то")
+        print(f"{self.name}"He walks")
         self.endurance -= 5
 
 
 
     def info(self):
-        print(f"Имя воина - {self.name}")
-        print(f"Цвет волос воина - {self.hair_color}")
-        print(f"Выносливость воина - {self.endurance}")
-        print(f"Сила воина - {self.power}")
+        print(f"The name of the warrior - {self.name}")
+        print(f"Warrior's Hair Color - {self.hair_color}")
+        print(f"Warrior's Endurance - {self.endurance}")
+        print(f"Warrior's Power - {self.power}")
 
 
 
