@@ -35,10 +35,15 @@ class Warrior():
 
 
 War1 = Warrior("Kratos", 60, 80, "Brown")
+War2 = Warrior("Sander", 75, 60, "Gray-haired")
 print(War1.name)
 print(War1.power)
 print(War1.endurance)
 print(War1.hair_color)
+print(War2.name)
+print(War2.power)
+print(War2.endurance)
+print(War2.hair_color)
 
 
 
